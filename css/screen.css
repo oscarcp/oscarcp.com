@@ -1,0 +1,14 @@
+body {
+    font-family: 'Maven Pro';
+}
+
+.altheader {
+    font-family: 'Cabin Sketch';
+    font-size: 5em;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #CCC;
+}
