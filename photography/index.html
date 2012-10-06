@@ -3,17 +3,15 @@
     <head>
         <title>Oscar Carballal Prego</title>
         <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="../css/font-awesome.css" />
-        <!--[if IE 7]>
-        <link rel="stylesheet" type="text/css" media="screen" href="../css/font-awesome-ie7.css" />
-        <![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700|Maven+Pro' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" media="screen" href="../css/screen.css"/>
         <link rel="shortcut icon" href="../img/favicon.ico" type="image/ico"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="Description" content="supervise is a project management tool"/>
         <meta name="Robots" content="all"/>
+        <script type="text/javascript" src="../js/jquery.js"></script>
         <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/masonry.min.js"></script>
     </head>
     <body>
         <div style="margin-top:50px;"></div>
@@ -28,8 +26,30 @@
                 <div class="span12" style="margin-bottom:30px;">
                     <div class="alert alert-error">
                         <p>I don't work on photography full-time anymore, but if you want me to do a photography work, please feel free to send me an e-mail.</p>
+                        <p>I'm no longer using flickr or deviantart or fotologue.jp Please don't try to contact me that way.</p>
                     </div>
-                    <h3>Still in construction</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div id="photos" class="span12">
+                    <div class="box"><img src="../img/photos/01.jpg" /></div>
+                    <div class="box"><img src="../img/photos/02.jpg" /></div>
+                    <div class="box"><img src="../img/photos/03.jpg" /></div>
+                    <div class="box"><img src="../img/photos/04.jpg" /></div>
+                    <div class="box"><img src="../img/photos/05.jpg" /></div>
+                    <div class="box"><img src="../img/photos/06.jpg" /></div>
+                    <div class="box"><img src="../img/photos/01.jpg" /></div>
+                    <div class="box"><img src="../img/photos/02.jpg" /></div>
+                    <div class="box"><img src="../img/photos/03.jpg" /></div>
+                    <div class="box"><img src="../img/photos/04.jpg" /></div>
+                    <div class="box"><img src="../img/photos/05.jpg" /></div>
+                    <div class="box"><img src="../img/photos/06.jpg" /></div>
+                    <div class="box"><img src="../img/photos/01.jpg" /></div>
+                    <div class="box"><img src="../img/photos/02.jpg" /></div>
+                    <div class="box"><img src="../img/photos/03.jpg" /></div>
+                    <div class="box"><img src="../img/photos/04.jpg" /></div>
+                    <div class="box"><img src="../img/photos/05.jpg" /></div>
+                    <div class="box"><img src="../img/photos/06.jpg" /></div>
                 </div>
             </div>
             <div class="footer">
@@ -40,5 +60,17 @@
                 <a href="mailto:&#111;&#115;&#99;&#97;&#114;&#64;&#111;&#115;&#99;&#97;&#114;&#99;&#112;&#46;&#99;&#111;&#109;">E-Mail</a></p>
             </div>
         </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#photos').masonry({
+                    itemSelector: '.box',
+                    singleMode: true,
+                    isFitWidth: true,
+                    isAnimated: true
+                }).imagesLoaded(function() {
+                    $('#photos').masonry('reload');
+                });
+            });
+        </script>
     </body>
 </html>

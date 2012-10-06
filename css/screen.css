@@ -12,3 +12,14 @@ body {
     padding: 10px;
     border-top: 1px solid #CCC;
 }
+
+.box {
+    width: 220px;
+    margin: 6px;
+    float: left;
+}
+
+#photos {
+    margin: 0 auto;
+    width: auto;
+}
