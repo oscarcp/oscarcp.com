@@ -3,8 +3,9 @@ body {
 }
 
 .altheader {
-    font-family: 'Cabin Sketch';
-    font-size: 5em;
+    font-family: 'Quicksand';
+    font-size: 48px;
+    font-weight: 300;
 }
 
 .footer {
@@ -22,4 +23,9 @@ body {
 #photos {
     margin: 0 auto;
     width: auto;
+}
+
+.quicksand {
+    font-family: 'Quicksand';
+    font-weight: 300;
 }
