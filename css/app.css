@@ -2,7 +2,7 @@
 * @Author: Oscar Carballal
 * @Date:   2017-09-06 21:38:56
 * @Last Modified by:   Oscar Carballal
-* @Last Modified time: 2017-09-06 23:34:10
+* @Last Modified time: 2017-09-07 12:24:21
 */
 
 .content {
@@ -58,4 +58,21 @@ p, li {
 .button.hollow.secondary {
     border: 1px solid #aaa;
     color: #aaa;
+}
+
+.workdate {
+    color: #000;
+    font-weight: bold;
+}
+
+.workcompany {
+    color: #000;
+    font-weight: bold;
+}
+
+.workposition {
+}
+
+ul {
+    line-height: 1;
 }
