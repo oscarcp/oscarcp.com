@@ -1,25 +1,385 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oscar Carballal Prego</title>
-    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Jaldi|Open+Sans|Raleway:200,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-<div class="grid-container">
-  <div class="grid-x grid-margin-x">
-    <div class="cell small-4">cell</div>
-    <div class="cell small-4">cell</div>
-    <div class="cell small-4">cell</div>
-  </div>
-</div>
-    <script src="js/jquery.js"></script>
-    <script src="js/what-input.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oscar Carballal Prego</title>
+        <link href="https://fonts.googleapis.com/css?family=ABeeZee|Jaldi|Open+Sans|Raleway:200,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/icons-embedded.css">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-12 mini-header">
+                    <span class="back-button"><i class="icon-angle-double-left"></i><a href="/">Go back</a></span>
+                    <span class="download-button">Download as PDF</span>
+                </div>
+            </div>
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-3 hide-for-small-only">
+                    <h5><i class="icon-right-open"></i>CONTACT</h5>
+                    <ul class="no-bullet">
+                        <li><i class="icon-github"></i><a href="https://github.com/oscarcp" target="_blank">GitHub : Personal</a></li>
+                        <li><i class="icon-github"></i><a href="https://github.com/esmorga" target="_blank">GitHub : Esmorga</a></li>
+                        <li><i class="icon-chat"></i><a href="https://discord.gg/WXah8vQ" target="_blank">Discord</a></li>
+                        <li><i class="icon-rss"></i><a href="https://blog.oscarcp.com" target="_blank">Blog</a></li>
+                        <li><i class="icon-twitter"></i><a href="https://twitter.com/pizte" target="_blank">@pizte</a></li>
+                        <li><i class="icon-mail"></i><a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#x6f;&#115;&#x63;&#97;&#x72;&#64;&#111;&#x73;&#x63;&#x61;&#114;&#x63;&#x70;&#46;&#x63;&#x6f;&#109;">oscar@oscarcp.com</a></li>
+                    </ul>
+                    <h5><i class="icon-right-open"></i>PROJECTS</h5>
+                    <ul class="no-bullet">
+                        <li><i class="icon-angle-right"></i><a href="https://github.com/sikrvault" target="_blank">sikr.io</a></li>
+                        <li><i class="icon-angle-right"></i><a href="https://github.com/esmorga/dboilerplate3" target="_blank">dboilerplate3</a></li>
+                        <li><i class="icon-angle-right"></i><a href="https://github.com/esmorga/octodon" target="_blank">octodon</a></li>
+                        <li><i class="icon-angle-right"></i><a href="https://github.com/esmorga/hetzner_heartbeat" target="_blank">hetzner-heartbeat</a></li>
+                        <li><i class="icon-angle-right"></i><a href="https://github.com/esmorga/django-genericimports" target="_blank">django-genericimports</a></li>
+                        <li><i class="icon-angle-right"></i><a href="https://github.com/esmorga/pyce" target="_blank">pyce</a></li>
+                    </ul>
+                    <h5><i class="icon-right-open"></i>LANGUAGES</h5>
+                    <ul class="no-bullet">
+                        <li><i class="icon-angle-right"></i>English: Full proeficiency</li>
+                        <li><i class="icon-angle-right"></i>Spanish: Native</li>
+                        <li><i class="icon-angle-right"></i>Galician: Native</li>
+                    </ul>
+                    <h5><i class="icon-right-open"></i>CONTRIBUTIONS</h5>
+                    <ul class="no-bullet">
+                        <li><i class="icon-angle-right"></i>Haiku OS</li>
+                        <li><i class="icon-angle-right"></i>Pekka Kanna 2</li>
+                        <li><i class="icon-angle-right"></i>django-userena</li>
+                        <li><i class="icon-angle-right"></i>django-grappelli</li>
+                        <li><i class="icon-angle-right"></i>falcon</li>
+                        <li><i class="icon-angle-right"></i>django</li>
+                        <li><i class="icon-angle-right"></i>sphinx-bootstrap-theme</li>
+                        <li><i class="icon-angle-right"></i>pyLeapMouse</li>
+                        <li><i class="icon-angle-right"></i>easyTrac</li>
+                    </ul>
+                </div>
+                <div class="cell small-12 medium-9 large-9">
+                    <h5>WORK EXPERIENCE <span class="expand-collapse" onclick="expandCollapse();">expand all<i class="icon-angle-circled-down"></i></span></h5>
+                    <div class="grid-x grid-padding-x grid-margin-x">
+                        <div class="callout alert" data-closable>
+                            <h5>Ye be dragons!</h5>
+                            <p>This is my entire work history and some parts may not be relevant to what you're looking for, please feel free to dismiss them.</p>
+                            <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">INARI</span></div>
+                                <div class="cell small-3"><span class="jobdates">Sep 2017 - present</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Full Stack Developer</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">
+                                        Technical design and development of the main platform and the microservices.</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python3</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">html5</span>
+                                    <span class="tag">css3</span>
+                                    <span class="tag">AWS</span>
+                                    <span class="tag">multichain</span>
+                                    <span class="tag">postgresql</span>
+                                    <span class="tag">boto3</span>
+                                    <span class="tag">ecs</span>
+                                    <span class="tag">docker</span>
+                                    <span class="tag">foundation</span>
+                                    <span class="tag">vue.js</span>
+                                    <span class="tag">s3</span>
+                                    <span class="tag">nginx</span>
+                                    <span class="tag">jquery</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">Marunire</span></div>
+                                <div class="cell small-3"><span class="jobdates">Mar 2017 - Sep 2017</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Full Stack Developer</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">Development of REST APIs and frontends for government applications.</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python3</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">html5</span>
+                                    <span class="tag">css3</span>
+                                    <span class="tag">django-rest</span>
+                                    <span class="tag">postgresql</span>
+                                    <span class="tag">rest</span>
+                                    <span class="tag">foundation</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">Opportunity Network</span></div>
+                                <div class="cell small-3"><span class="jobdates">May 2016 - Mar 2017</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Full Stack Developer & DevOps</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">As a Full Stack Developer my task was to develop and improve
+                                            the current platform to implement the requirements of the new
+                                            clients. This included payment systems adaptations, frontend
+                                            customization amongst others. As a DevOps I was in a support
+                                            role for the main DevOps doing part of the automation, systems
+                                            maintenance and release management and deployment</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python</span>
+                                    <span class="tag">python3</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">html5</span>
+                                    <span class="tag">css3</span>
+                                    <span class="tag">bash</span>
+                                    <span class="tag">postgresql</span>
+                                    <span class="tag">mysql</span>
+                                    <span class="tag">react.js</span>
+                                    <span class="tag">nginx</span>
+                                    <span class="tag">apache</span>
+                                    <span class="tag">vagrant</span>
+                                    <span class="tag">docker</span>
+                                    <span class="tag">ansible</span>
+                                    <span class="tag">jenkins</span>
+                                    <span class="tag">ec2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">nToklo</span></div>
+                                <div class="cell small-3"><span class="jobdates">Jun 2015 - Jun 2016</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Lead DevOps</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">As lead devops I take care of all everyday operations, spawning
+                                            new servers, making deployments and building and maintaining
+                                            the automation and monitoring systems.</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">bash</span>
+                                    <span class="tag">postgresql</span>
+                                    <span class="tag">mysql</span>
+                                    <span class="tag">nginx</span>
+                                    <span class="tag">apache</span>
+                                    <span class="tag">vagrant</span>
+                                    <span class="tag">docker</span>
+                                    <span class="tag">ansible</span>
+                                    <span class="tag">jenkins</span>
+                                    <span class="tag">elasticsearch</span>
+                                    <span class="tag">angular.js</span>
+                                    <span class="tag">ruby</span>
+                                    <span class="tag">falcon</span>
+                                    <span class="tag">cassandra</span>
+                                    <span class="tag">rabbitmq</span>
+                                    <span class="tag">haproxy</span>
+                                    <span class="tag">qemu</span>
+                                    <span class="tag">mesos</span>
+                                    <span class="tag">hadoop</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">Havas Worldwide London</span></div>
+                                <div class="cell small-3"><span class="jobdates">Dec 2013 - Jun 2015</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Senior Software Developer</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">Backend development and server maintenance and deployment.
+                                            Creation of REST API's, backends for websites. Setup and
+                                            maintenance of the servers, task automation and deployment.</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">pyramid</span>
+                                    <span class="tag">node.js</span>
+                                    <span class="tag">angular.js</span>
+                                    <span class="tag">falcon</span>
+                                    <span class="tag">postgresql</span>
+                                    <span class="tag">mysql</span>
+                                    <span class="tag">celery</span>
+                                    <span class="tag">python-rq</span>
+                                    <span class="tag">redis</span>
+                                    <span class="tag">nginx</span>
+                                    <span class="tag">apache</span>
+                                    <span class="tag">supervisor</span>
+                                    <span class="tag">uwsgi</span>
+                                    <span class="tag">qemu</span>
+                                    <span class="tag">ec2</span>
+                                    <span class="tag">s3</span>
+                                    <span class="tag">bidi</span>
+                                    <span class="tag">gtk3</span>
+                                    <span class="tag">boto</span>
+                                    <span class="tag">foundation</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">Yaco Sistemas</span></div>
+                                <div class="cell small-3"><span class="jobdates">Jun 2013 - Sep 2013</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Software Developer</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">Backend development and server maintenance and deployment.
+                                            Creation of REST API's, backends for websites. Setup and
+                                            maintenance of the servers, task automation and deployment.</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">mooc</span>
+                                    <span class="tag">rpm</span>
+                                    <span class="tag">centos</span>
+                                    <span class="tag">chef</span>
+                                    <span class="tag">postgresql</span>
+                                    <span class="tag">mysql</span>
+                                    <span class="tag">redis</span>
+                                    <span class="tag">bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">Cidadania Sociedade Cooperativa</span></div>
+                                <div class="cell small-3"><span class="jobdates">Dec 2010 - Jun 2013</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Software Developer & DevOps</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">Design and development from the ground up of the
+                                         e-cidadania e-democracy platform. Administrator and mentor for the Google
+                                        Summer of Code 2012</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">proxmox</span>
+                                    <span class="tag">openvz</span>
+                                    <span class="tag">gsoc</span>
+                                    <span class="tag">html5</span>
+                                    <span class="tag">css3</span>
+                                    <span class="tag">bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">Freelance</span></div>
+                                <div class="cell small-3"><span class="jobdates">Jan 2007  - Dec 2009</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Software & Web Developer</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">Design and development from the ground up of the
+                                            e-cidadania e-democracy platform. Administrator and mentor for the Google
+                                        Sumemr of Code 2012</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">python</span>
+                                    <span class="tag">django</span>
+                                    <span class="tag">arduino</span>
+                                    <span class="tag">gtk2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                        <!-- Card -->
+                        <div class="card" data-equalizer-watch="cards" onclick="toggleDetails(this);">
+                            <div class="grid-x">
+                                <div class="cell small-9"><span class="companyname">Taelpo Sociedad Cooperativa</span></div>
+                                <div class="cell small-3"><span class="jobdates">Jun 2005 - Dec 2006</span></div>
+                            </div>
+                            <div class="grid-x">
+                                <div class="cell auto"><span class="jobposition">Computer technician & Industrial electrician</span></div>
+                            </div>
+                            <div class="grid-x description-section">
+                                <div class="cell auto">
+                                    <span class="jobdescription">Design and development from the ground up of the
+                                            e-cidadania e-democracy platform. Administrator and mentor for the Google
+                                        Sumemr of Code 2012</span>
+                                </div>
+                            </div>
+                            <div class="grid-x tags-section">
+                                <div class="cell auto">
+                                    <span class="tag">gsm</span>
+                                    <span class="tag">umts</span>
+                                    <span class="tag">data recovery</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End card -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="giggles">handmade, just for the lulz</div>
+        <script src="js/jquery.js"></script>
+        <script src="js/what-input.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
