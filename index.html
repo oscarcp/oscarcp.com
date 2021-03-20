@@ -1,25 +1,54 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<html class="no-js" lang="">
+
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oscar Carballal Prego</title>
-    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Jaldi|Open+Sans|Raleway:200,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
+    <meta name="description" content="My personal website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Yeseva+One&display=swap" rel="stylesheet">
   </head>
+
+  <style>
+    body {
+      background-image: url('background.jpg');
+      background-size: cover;
+    }
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Yeseva One', cursive;
+    }
+    h2, h3 {
+      font-size: 30px;
+      color: white;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 2fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        ". . ."
+        ". content ."
+        ". . .";
+    }
+    .content {
+      grid-area: content;
+      text-align: center;
+    }
+  </style>
   <body>
-    <div class="content">
-      <img class="avatar" src="img/me-bw.png" />
-      <p class="name">Oscar Carballal Prego</p>
-      <p class="description">I'm a Python software developer &amp; DevOps</p>
-      <a class="hollow button secondary workbutton" href="work.html">WORK HISTORY</a>
-      <a class="hollow button secondary workbutton" href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#x6f;&#115;&#x63;&#97;&#x72;&#64;&#111;&#x73;&#x63;&#x61;&#114;&#x63;&#x70;&#46;&#x63;&#x6f;&#109;">CONTACT</a>
+    <div class="grid-container">
+      <div class="content">
+        <h1>Oscar Carballal Prego</h1>
+        <h2>SOFTWARE DEVELOPER & DEVOPS</h2>
+        <h3>oscar.carballal [at] protonmail [dot] com</h3>
+      </div>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/what-input.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
   </body>
+
 </html>
